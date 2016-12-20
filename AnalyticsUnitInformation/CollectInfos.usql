@@ -1,0 +1,106 @@
+﻿USING System.Diagnostics;
+USING AnalyticsUnitInformation;
+
+// Plateform Informations
+@infos =
+    SELECT *
+    FROM(
+        VALUES
+        (
+            "OSVersion",
+            Environment.OSVersion.ToString()
+        ),
+        (
+            "ProcessorCount",
+            Environment.ProcessorCount.ToString()
+        ),
+        (
+            "Is64BitOperatingSystem",
+            Environment.Is64BitOperatingSystem.ToString()
+        ),
+        (
+            "MachineName",
+            Environment.MachineName
+        ),
+        (
+            "UserDomainName",
+            Environment.UserDomainName
+        ),
+        (
+            "UserName",
+            Environment.UserName
+        )
+    ) AS vt(name, value);
+
+// WMI Informations
+@wmi =
+    SELECT *
+    FROM(
+        VALUES
+        (
+            new SqlArray<string>(WMIInfos.Properties)
+        )) AS vt(property);
+
+@wmi =
+    SELECT new SqlArray<string>(p.Split('=')) AS property
+    FROM @wmi
+         CROSS APPLY
+             EXPLODE(property) AS a(p);
+
+@wmi =
+    SELECT property[0]AS name,
+           property[1]AS value
+    FROM @wmi;
+
+// Environment Variables
+@env =
+    SELECT *
+    FROM(
+        VALUES
+        (
+            new SqlArray<string>(
+                Enumerable.Zip<string, string, string>(
+                    Environment.GetEnvironmentVariables().Keys.Cast<string>(),
+                    Environment.GetEnvironmentVariables().Values.Cast<string>(),
+                    (n, v) => string.Format("{0}={1}", n, v)
+                )
+            )
+        )) AS vt(variable);
+
+@env =
+    SELECT new SqlArray<string>(v.Split('=')) AS variable
+    FROM @env
+         CROSS APPLY
+             EXPLODE(variable) AS a(v);
+
+@env =
+    SELECT variable[0]AS name,
+           variable[1]AS value
+    FROM @env;
+
+// Persist
+OUTPUT @infos
+TO "/au_plateform.tsv"
+USING Outputters.Tsv(outputHeader : true, quoting : false);
+
+OUTPUT
+(
+    SELECT *
+    FROM @wmi
+    WHERE !WMIInfos.IsWin32_Process(name)
+)
+TO "/au_wmi.tsv"
+USING Outputters.Tsv(outputHeader : true, quoting : false);
+
+OUTPUT
+(
+    SELECT *
+    FROM @wmi
+    WHERE WMIInfos.IsWin32_Process(name)
+)
+TO "/au_process.tsv"
+USING Outputters.Tsv(outputHeader : true, quoting : false);
+
+OUTPUT @env
+TO "/au_env.tsv"
+USING Outputters.Tsv(outputHeader : true, quoting : false);

@@ -1,0 +1,67 @@
+name	value
+SystemDrive	C:
+ProgramFiles(x86)	C:\Program Files (x86)
+ProgramW6432	C:\Program Files
+PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 63 Stepping 2, GenuineIntel
+PNSECUREPORT	10410
+TMP	C:\Windows\TEMP
+PROCESSOR_ARCHITECTURE	AMD64
+Path	C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;
+CSPROCESSCLUSTER	LocalCluster
+PROCESSOR_REVISION	3f02
+PWD	D:/data/yarnnm/local/usercache/86f9313e-6723-4bce-bb75-fc1ee83ec96e/appcache/application_1481793190043_66953/container_e91_1481793190043_66953_01_000003
+ADL_TEMP_STORE_PREFIX	temp://b/7tsMsNUwMkk8thwa11qP9cLraaX9zbKO7jRBHdF4eAazW9cHf3aksHL7zqEp179mOfKztwE6J2KfZkWmQxV-qiAVDsMJ83OMQrPjpQ-gDOA1C4Mm2CXB7nvO_n5k60PbIx7GcdDpP6K0CWgFlBoKZDozTeDbX9g82ykNGxMSeVc
+USERDOMAIN	SANDBOXES
+CommonProgramFiles	C:\Program Files\Common Files
+TEMP	C:\Windows\TEMP
+USERPROFILE	C:\Windows\system32\config\systemprofile
+USER	86f9313e-6723-4bce-bb75-fc1ee83ec96e
+CsContainerType	Guaranteed
+USERNAME	MICROSO-KUG0CH0$
+LOG_DIRS	D:/data/yarnnm/logs/application_1481793190043_66953/container_e91_1481793190043_66953_01_000003
+ProgramData	C:\ProgramData
+CONTAINER_ID	container_e91_1481793190043_66953_01_000003
+PNSECUREIP	192.168.0.1
+FP_NO_HOST_CHECK	NO
+APENVIRONMENTPATH	.;..;d:\app
+APPLICATION_TYPE	VERTEX
+NM_HTTP_PORT	8042
+HADOOP_TOKEN_FILE_LOCATION	/D:/data/yarnnm/local/usercache/86f9313e-6723-4bce-bb75-fc1ee83ec96e/appcache/application_1481793190043_66953/container_e91_1481793190043_66953_01_000003/container_tokens
+SystemRoot	C:\Windows
+SecurityKeyStrName	KSdDb250ZXh0SW5mb1V0aWxzLklkZW50aWZ5aW5nQ29udGV4dEluZm8ByQqWAWQ5Z2R2dWY2YmM1MmxjbGYzYXR0M2owNDR1M3FlNTdmazFrYzNobmljbmdrYm9oOGhjazMzbGZqMGhtdWpobWFnbWQzOHFqazFtZTN2bnVrZXNrODFubmppYmVpNGc2NWNvaHQ2OTJvbW42bHNkZTM0NjMyZmU0ZmU0ZHM4YXJpY3I5aDRwbjNpY2tmbGs4c2k4OTVlcQA
+PROCESSOR_LEVEL	6
+LOGNAME	86f9313e-6723-4bce-bb75-fc1ee83ec96e
+MALLOC_ARENA_MAX	$MALLOC_ARENA_MAX
+container_drain_enabled	true
+NM_AUX_SERVICE_PnAuxService	RW5hYmxlZA
+CONTAINERTYPE	SecureContainer
+ALLUSERSPROFILE	C:\ProgramData
+NM_AUX_SERVICE_mapreduce_shuffle	AAAmrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+CONTAINER_ADL_TOKEN	d9gdvuf6bc52lclf3att3j044u3qe57fk1kc3hnicngkboh8hck33lfj0hmujhmagmd38qjk1me3vnukesk81nnjibei4g65coht692omn6lsde34632fe4fe4ds8aricr9h4pn3ickflk8si895eq
+JOBID	{438FF85E-F700-414F-8B3C-8F585E78A9C9}
+TRUST_DOMAIN_ID	86f9313e-6723-4bce-bb75-fc1ee83ec96e
+CSPROCESSROOTPROCESSID	438FF85E-F700-414F-8B3C-8F585E78A9C9
+CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+windir	C:\Windows
+LOCAL_DIRS	D:/data/yarnnm/local/usercache/86f9313e-6723-4bce-bb75-fc1ee83ec96e/appcache/application_1481793190043_66953
+NUMBER_OF_PROCESSORS	18
+CSPROCESSNODE	localhost
+APPDATA	C:\Windows\system32\config\systemprofile\AppData\Roaming
+ProgramFiles	C:\Program Files
+ComSpec	C:\Windows\system32\cmd.exe
+PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+HOME	/home/
+PSModulePath	C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\Microsoft Security Client\MpProvider\
+PROMPT	$P$G
+CSPROCESSJOBINFO	4hIQXviPQwD3T0GLPI9YXnipyeQyBQAAAGphdmEA4zIkAAAAamF2YSAtWG14ODE5Mm0gLUR6b29rZWVwZXIuc2VjdXIuLi4A7BIIvqkLePVW0gEAEgI7I+syHQAAAEJONlNDSDEwMzQwMDkyMlxZQVJOUFBOTVVTRVIAARICOyM
+updatedContext	updatedContext
+COMPUTERNAME	MICROSO-KUG0CH0
+FOR_REST_API_MIGRATION_7215C128F4E04E5CB33116241F5C9DDE	FOR_REST_API_MIGRATION_7215C128F4E04E5CB33116241F5C9DDE
+OS	Windows_NT
+LOCALAPPDATA	C:\Windows\system32\config\systemprofile\AppData\Local
+CsProcessId	977C0801-A2B9-466D-86E5-ED9115973645
+CommonProgramW6432	C:\Program Files\Common Files
+notifiedPN	notifiedPN
+NM_PORT	10131
+NM_HOST	bn6sch103400922
+PUBLIC	C:\Users\Public
