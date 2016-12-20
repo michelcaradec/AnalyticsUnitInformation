@@ -8,13 +8,13 @@ The purpose of this project is to get details on Azure Data Lake Analytics Unit 
 
 3 types of information is collected:
 
-- Plateform informations, by using `System.Diagnostics.Environment` properties.
-- Windows Management informations, by using `System.Management.ManagementObjectSearcher` (code-behind was used for this part).
-- Environment variables, by using `System.Diagnostics.Environment.GetEnvironmentVariables` collection.
+- **Plateform** informations, by using `System.Diagnostics.Environment` properties.
+- **Windows Management** informations, by using `System.Management.ManagementObjectSearcher` (code-behind was used for this part).
+- **Environment variables**, by using `System.Diagnostics.Environment.GetEnvironmentVariables` collection.
 
 ### Output
 
-Each type of information is outputed in a dedicated tab-separated values files:
+Each type of information is outputed in a dedicated tab-separated values file:
 
 - au_plateform.tsv
 - au_wmi.tsv
@@ -23,7 +23,7 @@ Each type of information is outputed in a dedicated tab-separated values files:
 
 ### Execution
 
-We take the lowest degree of parallelism (1), as we are interested in collected informations for only one instance.
+We select the lowest degree of parallelism (=1), as we are interested in collecting informations for only one instance.
 
 ![](medias/submitjob.png).
 
