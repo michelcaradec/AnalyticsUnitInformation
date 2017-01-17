@@ -7,13 +7,13 @@ Win32_ComputerSystem[1]/BootOptionOnLimit	0
 Win32_ComputerSystem[1]/BootOptionOnWatchDog	0
 Win32_ComputerSystem[1]/BootROMSupported	True
 Win32_ComputerSystem[1]/BootupState	Normal boot
-Win32_ComputerSystem[1]/Caption	MICROSO-LI27NJS
+Win32_ComputerSystem[1]/Caption	MICROSO-HL7QCV5
 Win32_ComputerSystem[1]/ChassisBootupState	3
 Win32_ComputerSystem[1]/CreationClassName	Win32_ComputerSystem
 Win32_ComputerSystem[1]/CurrentTimeZone	-480
 Win32_ComputerSystem[1]/DaylightInEffect	False
 Win32_ComputerSystem[1]/Description	AT/AT COMPATIBLE
-Win32_ComputerSystem[1]/DNSHostName	MICROSO-LI27NJS
+Win32_ComputerSystem[1]/DNSHostName	MICROSO-HL7QCV5
 Win32_ComputerSystem[1]/Domain	SANDBOXES
 Win32_ComputerSystem[1]/DomainRole	2
 Win32_ComputerSystem[1]/EnableDaylightSavingsTime	True
@@ -26,7 +26,7 @@ Win32_ComputerSystem[1]/KeyboardPasswordStatus	3
 Win32_ComputerSystem[1]/LastLoadInfo	
 Win32_ComputerSystem[1]/Manufacturer	Microsoft Corporation
 Win32_ComputerSystem[1]/Model	Virtual Machine
-Win32_ComputerSystem[1]/Name	MICROSO-LI27NJS
+Win32_ComputerSystem[1]/Name	MICROSO-HL7QCV5
 Win32_ComputerSystem[1]/NameFormat	
 Win32_ComputerSystem[1]/NetworkServerModeEnabled	True
 Win32_ComputerSystem[1]/NumberOfLogicalProcessors	18
@@ -129,12 +129,12 @@ Win32_DiskDrive[1]/SCSIPort	0
 Win32_DiskDrive[1]/SCSITargetId	1
 Win32_DiskDrive[1]/SectorsPerTrack	63
 Win32_DiskDrive[1]/SerialNumber	
-Win32_DiskDrive[1]/Signature	97478169
+Win32_DiskDrive[1]/Signature	3235262520
 Win32_DiskDrive[1]/Size	51539604480
 Win32_DiskDrive[1]/Status	OK
 Win32_DiskDrive[1]/StatusInfo	
 Win32_DiskDrive[1]/SystemCreationClassName	Win32_ComputerSystem
-Win32_DiskDrive[1]/SystemName	MICROSO-LI27NJS
+Win32_DiskDrive[1]/SystemName	MICROSO-HL7QCV5
 Win32_DiskDrive[1]/TotalCylinders	6266
 Win32_DiskDrive[1]/TotalHeads	255
 Win32_DiskDrive[1]/TotalSectors	100663290
@@ -180,12 +180,12 @@ Win32_DiskDrive[2]/SCSIPort	0
 Win32_DiskDrive[2]/SCSITargetId	0
 Win32_DiskDrive[2]/SectorsPerTrack	63
 Win32_DiskDrive[2]/SerialNumber	
-Win32_DiskDrive[2]/Signature	1923760725
+Win32_DiskDrive[2]/Signature	1410811423
 Win32_DiskDrive[2]/Size	34356994560
 Win32_DiskDrive[2]/Status	OK
 Win32_DiskDrive[2]/StatusInfo	
 Win32_DiskDrive[2]/SystemCreationClassName	Win32_ComputerSystem
-Win32_DiskDrive[2]/SystemName	MICROSO-LI27NJS
+Win32_DiskDrive[2]/SystemName	MICROSO-HL7QCV5
 Win32_DiskDrive[2]/TotalCylinders	4177
 Win32_DiskDrive[2]/TotalHeads	255
 Win32_DiskDrive[2]/TotalSectors	67103505
@@ -215,7 +215,7 @@ Win32_Processor[1]/L3CacheSize	0
 Win32_Processor[1]/L3CacheSpeed	0
 Win32_Processor[1]/LastErrorCode	
 Win32_Processor[1]/Level	6
-Win32_Processor[1]/LoadPercentage	0
+Win32_Processor[1]/LoadPercentage	
 Win32_Processor[1]/Manufacturer	GenuineIntel
 Win32_Processor[1]/MaxClockSpeed	2394
 Win32_Processor[1]/Name	Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz
@@ -235,7 +235,7 @@ Win32_Processor[1]/Status	OK
 Win32_Processor[1]/StatusInfo	3
 Win32_Processor[1]/Stepping	
 Win32_Processor[1]/SystemCreationClassName	Win32_ComputerSystem
-Win32_Processor[1]/SystemName	MICROSO-LI27NJS
+Win32_Processor[1]/SystemName	MICROSO-HL7QCV5
 Win32_Processor[1]/UniqueId	
 Win32_Processor[1]/UpgradeMethod	6
 Win32_Processor[1]/Version	

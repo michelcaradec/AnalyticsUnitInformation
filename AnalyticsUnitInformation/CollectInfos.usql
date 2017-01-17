@@ -87,9 +87,18 @@ OUTPUT
 (
     SELECT *
     FROM @wmi
-    WHERE !WMIInfos.IsWin32_Process(name)
+    WHERE !WMIInfos.IsWin32_Process(name) AND !WMIInfos.IsMemoryStress(name)
 )
 TO "/au_wmi.tsv"
+USING Outputters.Tsv(outputHeader : true, quoting : false);
+
+OUTPUT
+(
+    SELECT *
+    FROM @wmi
+    WHERE WMIInfos.IsMemoryStress(name)
+)
+TO "/au_memorystress.tsv"
 USING Outputters.Tsv(outputHeader : true, quoting : false);
 
 OUTPUT
